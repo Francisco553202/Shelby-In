@@ -1,6 +1,8 @@
-<app-banner></app-banner>
-<div class="row">
-    <div class="col-12 col-sm-6 col-md-4" *ngFor="let product of listProducts">
+<div class="row gy-5 mt-5 mb-5">
+    <div class="col-12">
+        <h1>NUESTROS PRODUCTOS</h1>
+    </div>
+    <div class="col-6 col-sm-5 col-md-3" *ngFor="let product of listProducts">
         <app-tarjeta  [producto]="product"></app-tarjeta>
     </div>    
 </div>
