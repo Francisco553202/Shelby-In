@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Producto } from '../interfaces/producto.interface';
 import { HttpClient } from '@angular/common/http'; 
-import { Observable } from 'rxjs';
+import productosJson from '../../assets/bd/products.json';
 
 @Injectable({
   providedIn: 'root'
@@ -10,11 +10,13 @@ export class ProductosService {
 
   principales: Producto[] = []
 
-  constructor(private http: HttpClient) {
-    
+  
+  constructor() {
+    this.principales = productosJson;
   }
+  
 
   getAllProductos(){
-    return [];
+    return this.principales;
   }
 }

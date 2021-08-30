@@ -18,5 +18,10 @@
       "nombre": "producto3",
       "imagen": "../assets/img/productos/3.jpg",
       "descripcion": "Producto chido 3"
+    },
+    {
+      "nombre": "producto3",
+      "imagen": "../assets/img/productos/3.jpg",
+      "descripcion": "Producto chido 3"
     }
 ]
