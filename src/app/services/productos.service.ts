@@ -23,9 +23,9 @@ export class ProductosService {
       descripcion: "Producto chido 3"
     },
     {
-      nombre: "producto3",
-      imagen: "../assets/img/productos/3.jpg",
-      descripcion: "Producto chido 3"
+      nombre: "producto4",
+      imagen: "../assets/img/productos/4.jpg",
+      descripcion: "Producto chido 4"
     }
   ]
 
